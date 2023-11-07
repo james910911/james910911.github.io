@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="werew.css">
+</head>
+
+<body>
+    <script src="./abc.js"></script>
+    <div id="ID">123</div>
+    <img id="btn1" class="cat" src="cat.jpg" alt="圖片找不到">
+    <button id="btn1" onclick=pic()>改圖片</button>
+    <!-- <img id="btn2" class="cat" src="cat2.jpg" alt="圖片找不到">
+    <button id="btn2" onclick="pic()">改圖片</button>    -->
+    <script>
+        var img = document.getElementById("btn1");
+        function pic (){
+            // alert(img.src);
+            img.src="./cat2.jpg";
+        } 
+    </script>
+</body>
+
+</html>
